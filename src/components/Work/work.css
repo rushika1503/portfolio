@@ -1,0 +1,87 @@
+#work {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.workTitle {
+    font-size: 2rem;
+    font-weight: 200;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.workDescription {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    max-width: 50rem;
+    padding: 0 1rem;
+}
+
+.companySections {
+
+    /* margin: 1.5rem; */
+    margin-right: auto;
+    /* margin-left: auto;  */
+    width: 100vw;
+    max-width: 100%;
+    text-align: left;
+}
+
+.companySection {
+    display: flex;
+    margin: 1rem !important;
+    padding: 1.5rem 2rem;
+    border-radius: 0.5rem;
+    background: #131413 !important;
+}
+
+#company {
+    margin: 1rem !important;
+}
+
+#companyPara {
+    margin-top: 1rem !important;
+}
+
+.companyRole {
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.companyLogo {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: .95rem;
+    border-radius: 2rem;
+}
+
+.ViewDetailsBtn {
+    background: #a4f4d6;
+    color: #131413;
+    /* cursor: pointer; */
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.ViewDetailsBtn:hover {
+    background: #a4f4d6;
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    color: #131413;
+    border: 2px solid #131413;
+}

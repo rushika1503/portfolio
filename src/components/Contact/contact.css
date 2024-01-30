@@ -1,0 +1,82 @@
+#contact {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 55rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactTitle {
+    font-size: 2rem;
+    font-weight: 200;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    text-align: center
+}
+
+.contactDescription {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: medium;
+    text-align: center;
+    padding:  1rem;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+
+}
+
+.name, .email, .message, .subject{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    color: white;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background:#131413;
+}
+.name.name:click{
+
+border-color: #a4f4d6;
+
+}
+
+.border-on-focus {
+    border: 1px solid #a4f4d6;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.SubmitBtn {
+    background:#a4f4d6;
+    color: #131413;
+    /* cursor: pointer; */
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+}
+
+.SubmitBtn:hover {
+    background:  #a4f4d6;
+    cursor: pointer;
+    margin: 1rem 0;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    color: #131413;
+    border:2px solid #131413;
+}
